@@ -28,8 +28,8 @@ public class EmailSenderTest {
     @Test
     void emailSendToManyTest(){
         System.out.println("Sending Email to All");
-        emailService.sendEmailToMany(new String[]{"jashanpreet0100@gmail.com", "deeps3711@gmail.com"},
-                "Email from spring boot test to Many",
+        emailService.sendEmailToMany(new String[]{"jashanpreet0100@gmail.com", "deeps3711@gmail.com", "yashzilpilwar@gmail.com"},
+                "Email from spring boot test to Many sent by Jashan",
                 "This service is developed by Jashan Preet Singh in Spring Boot to Test sending multiple emails");
     }
 
